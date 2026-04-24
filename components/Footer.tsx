@@ -21,7 +21,7 @@ export default function Footer() {
             { title: 'Product', links: [{ label: 'Features', href: '/platform#features' }, { label: 'Pricing', href: '/platform#pricing' }, { label: 'Security', href: '/security' }, { label: 'Roadmap', href: '/roadmap' }] },
             { title: 'Company', links: [{ label: 'About', href: 'https://primustechnologiesai.com' }, { label: 'Customers', href: '/platform#customers' }, { label: 'Careers', href: '/careers' }, { label: 'Contact', href: '#', isContact: true }] },
             { title: 'Resources', links: [{ label: 'Documentation', href: '#' }, { label: 'API Reference', href: '#' }, { label: 'Support', href: '/platform#resources' }, { label: 'Status', href: '#' }] },
-            { title: 'Legal', links: [{ label: 'Privacy', href: '#' }, { label: 'Terms', href: '#' }, { label: 'Compliance', href: '#' }] },
+            { title: 'Legal', links: [{ label: 'Privacy', href: '/privacy' }, { label: 'Terms', href: '/terms' }, { label: 'Compliance', href: '/compliance' }] },
           ].map((col, i) => (
             <div key={i}>
               <h4 className="font-bold mb-5 text-[#0f172a]">{col.title}</h4>
